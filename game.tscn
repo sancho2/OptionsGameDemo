@@ -1,0 +1,399 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5w1wq1tvxxgk"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_er2jv"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_er2jv")
+metadata/_edit_vertical_guides_ = [57.0, 61.0, 464.0, 472.0, 468.0, 182.0, 186.0]
+metadata/_edit_horizontal_guides_ = [33.0, 64.0, 68.0, 99.0, 103.0, 134.0, 138.0, 169.0, 173.0, 204.0, 208.0, 239.0, 243.0, 274.0, 278.0, 309.0, 313.0, 345.0, 349.0, 380.0, 384.0, 415.0, 419.0, 450.0, 454.0, 485.0, 502.0]
+
+[node name="BC" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 33.0
+offset_right = 848.0
+offset_bottom = 64.0
+item_count = 4
+popup/item_0/text = "Vancouver"
+popup/item_1/text = "Victoria"
+popup/item_1/id = 99
+popup/item_2/text = "Kelowna"
+popup/item_2/id = 2
+popup/item_3/text = "Prince Albert"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="BC"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="BC/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 327.0
+offset_bottom = 26.0
+text = "What is the capital city of Britsh Columbia?"
+
+[node name="AB" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 68.0
+offset_right = 848.0
+offset_bottom = 99.0
+item_count = 4
+popup/item_0/text = "Calgary"
+popup/item_1/text = "Edmonton"
+popup/item_1/id = 99
+popup/item_2/text = "Red Deer"
+popup/item_2/id = 2
+popup/item_3/text = "Medicine Hat"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="AB"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="AB/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 262.0
+offset_bottom = 26.0
+text = "What is the Capital city of Alberta?"
+
+[node name="SK" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 103.0
+offset_right = 848.0
+offset_bottom = 134.0
+item_count = 4
+popup/item_0/text = "Moose Jaw"
+popup/item_1/text = "Saskatoon"
+popup/item_1/id = 1
+popup/item_2/text = "Regina"
+popup/item_2/id = 99
+popup/item_3/text = "Yorkton"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="SK"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="SK/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 316.0
+offset_bottom = 26.0
+text = "What is the capital city of Saskatchewan?"
+
+[node name="MB" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 138.0
+offset_right = 848.0
+offset_bottom = 169.0
+item_count = 4
+popup/item_0/text = "Winnipeg"
+popup/item_0/id = 99
+popup/item_1/text = "Brandon"
+popup/item_1/id = 1
+popup/item_2/text = "Selkirk"
+popup/item_2/id = 2
+popup/item_3/text = "Sydney"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="MB"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="MB/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 284.0
+offset_bottom = 26.0
+text = "What is the capital city of Manitoba?"
+
+[node name="ON" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 173.0
+offset_right = 848.0
+offset_bottom = 204.0
+item_count = 4
+popup/item_0/text = "Waterloo"
+popup/item_1/text = "Toronto"
+popup/item_1/id = 99
+popup/item_2/text = "Ottawa"
+popup/item_2/id = 2
+popup/item_3/text = "Penticton"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="ON"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="ON/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 270.0
+offset_bottom = 26.0
+text = "What is the capital city of Ontario?"
+
+[node name="QC" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 208.0
+offset_right = 848.0
+offset_bottom = 239.0
+item_count = 4
+popup/item_0/text = "Quebec City"
+popup/item_0/id = 99
+popup/item_1/text = "Montreal"
+popup/item_1/id = 1
+popup/item_2/text = "Rimouski"
+popup/item_2/id = 2
+popup/item_3/text = "Avignon"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="QC"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="QC/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 260.0
+offset_bottom = 26.0
+text = "Quelle est la capitale du Québec?"
+
+[node name="NL" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 243.0
+offset_right = 848.0
+offset_bottom = 274.0
+item_count = 4
+popup/item_0/text = "Labrador"
+popup/item_1/text = "Corner Brook"
+popup/item_1/id = 1
+popup/item_2/text = "Thunder Bay"
+popup/item_2/id = 2
+popup/item_3/text = "St. Johns"
+popup/item_3/id = 99
+
+[node name="Panel" type="Panel" parent="NL"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="NL/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 325.0
+offset_bottom = 26.0
+text = "What is the capital city of Newfoundland?"
+
+[node name="NT" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 419.0
+offset_right = 848.0
+offset_bottom = 450.0
+item_count = 4
+popup/item_0/text = "Inuvik"
+popup/item_1/text = "Yellowknife"
+popup/item_1/id = 99
+popup/item_2/text = "Hudsons Bay"
+popup/item_2/id = 2
+popup/item_3/text = "Hay River"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="NT"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="NT/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 407.0
+offset_bottom = 26.0
+text = "What is the capital city of the Northwest Territories?"
+
+[node name="NS" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 349.0
+offset_right = 848.0
+offset_bottom = 380.0
+item_count = 4
+popup/item_0/text = "Halifax"
+popup/item_0/id = 99
+popup/item_1/text = "Antigonish"
+popup/item_1/id = 1
+popup/item_2/text = "Trudeaux"
+popup/item_2/id = 2
+popup/item_3/text = "Truro"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="NS"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="NS/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 305.0
+offset_bottom = 26.0
+text = "What is the capital city of Nova Scotia? "
+
+[node name="NU" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 454.0
+offset_right = 848.0
+offset_bottom = 485.0
+item_count = 4
+popup/item_0/text = "Iqaluit"
+popup/item_0/id = 99
+popup/item_1/text = "Deadhorse"
+popup/item_1/id = 1
+popup/item_2/text = "Miami"
+popup/item_2/id = 2
+popup/item_3/text = "Utqiagvik"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="NU"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="NU/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 277.0
+offset_bottom = 26.0
+text = "What is the capital city of Nunavut?"
+
+[node name="PE" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 278.0
+offset_right = 848.0
+offset_bottom = 309.0
+item_count = 4
+popup/item_0/text = "Summerside"
+popup/item_1/text = "Alberton"
+popup/item_1/id = 1
+popup/item_2/text = "St. George"
+popup/item_2/id = 2
+popup/item_3/text = "Charlottetown"
+popup/item_3/id = 99
+
+[node name="Panel" type="Panel" parent="PE"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="PE/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 372.0
+offset_bottom = 26.0
+text = "What is the capital city of Prince Edward Island?"
+
+[node name="YT" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 384.0
+offset_right = 848.0
+offset_bottom = 415.0
+item_count = 4
+popup/item_0/text = "Lethbridge"
+popup/item_1/text = "Dawson City"
+popup/item_1/id = 1
+popup/item_2/text = "Carmacks"
+popup/item_2/id = 2
+popup/item_3/text = "Whitehorse"
+popup/item_3/id = 99
+
+[node name="Panel" type="Panel" parent="YT"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 31.0
+
+[node name="Label" type="Label" parent="YT/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 342.0
+offset_bottom = 26.0
+text = "What is the capital city of the Yukon Territories?"
+
+[node name="NB" type="OptionButton" parent="."]
+offset_left = 472.0
+offset_top = 313.0
+offset_right = 848.0
+offset_bottom = 345.0
+item_count = 4
+popup/item_0/text = "St. John"
+popup/item_1/text = "Moncton"
+popup/item_1/id = 1
+popup/item_2/text = "Fredericton"
+popup/item_2/id = 99
+popup/item_3/text = "Laval"
+popup/item_3/id = 3
+
+[node name="Panel" type="Panel" parent="NB"]
+layout_mode = 0
+offset_left = -415.0
+offset_right = -4.0
+offset_bottom = 32.0
+
+[node name="Label" type="Label" parent="NB/Panel"]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 333.0
+offset_bottom = 26.0
+text = "What is the capital city of New Brunswick? "
+
+[node name="Check" type="Button" parent="."]
+offset_left = 57.0
+offset_top = 502.0
+offset_right = 182.0
+offset_bottom = 533.0
+text = "Check Answers"
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 186.0
+offset_top = 502.0
+offset_right = 414.0
+offset_bottom = 533.0
+
+[node name="Total" type="Label" parent="Panel"]
+visible = false
+offset_left = 4.0
+offset_top = 3.0
+offset_right = 217.0
+offset_bottom = 26.0
+text = "You got 13 out of 13 correct"
+
+[connection signal="pressed" from="Check" to="." method="_on_check_pressed"]
